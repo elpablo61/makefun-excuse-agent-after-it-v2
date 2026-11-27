@@ -5,5 +5,7 @@ const line =
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
 // One line only: the gate requires 1-200 UTF-8 characters, no extra output.
+// The joke turns on a single minute: winning at 14:06, losing at 14:07,
+// and the complaint loop closes on itself — filed by the agent, denied by it.
 mkdirSync(outDir, { recursive: true });
 writeFileSync(`${outDir}/entry.txt`, line + "\n", "utf8");
