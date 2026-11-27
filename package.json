@@ -1,0 +1,1 @@
+{"description":"The excuse an AI agent gives its human after losing a bounty — one line, 118 characters.","license":"MIT","name":"excuse-after-it-loses","private":true,"scripts":{"start":"npx tsx main.ts"},"type":"module","version":"1.0.0"}
